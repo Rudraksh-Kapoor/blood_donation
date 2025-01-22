@@ -1,9 +1,10 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.contrib.auth.models import User
+from pyexpat.errors import messages
+from django.shortcuts import render, redirect, get_object_or_404 # type: ignore
+from django.contrib.auth.models import User # type: ignore
 from . models import *
-from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.decorators import login_required
-from django.db.models import Count
+from django.contrib.auth import authenticate, login, logout # type: ignore
+from django.contrib.auth.decorators import login_required # type: ignore
+from django.db.models import Count # type: ignore
 
 
 

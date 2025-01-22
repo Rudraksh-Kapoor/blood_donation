@@ -1,4 +1,5 @@
-from django.urls import path
+from django.urls import path # type: ignore
+from django.contrib import admin # type: ignore
 from home.views import *
 urlpatterns = [
     path('',index,name='index'),
