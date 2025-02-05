@@ -14,6 +14,6 @@ INSTRUCTIONS: ------------------------------------------------------------------
 
 5- In the folder there is a file called manage.py
 
-6- Run python manage.py runserver 8080
+6- Run python manage.py runserver 8000
 
-7- Goto http://127.0.0.1:8080/ in browser
+7- Goto http://127.0.0.1:8000/ in browser
